@@ -7,6 +7,7 @@ export default async function holidays(
   const holidays = [
     { date: '1/1/2022', name: 'Confraternização mundial' },
     { date: '1/3/2022', name: 'Carnaval' },
+    { date: '4/15/2022', name: 'Sexta-feira Santa' },
     { date: '4/17/2022', name: 'Páscoa' },
     { date: '4/21/2022', name: 'Tiradentes' },
     { date: '5/1/2022', name: 'Dia do trabalho' },
@@ -16,7 +17,6 @@ export default async function holidays(
     { date: '11/2/2022', name: 'Finados' },
     { date: '11/15/2022', name: 'Proclamação da República' },
     { date: '12/25/2022', name: 'Natal' },
-    { date: '6/14/2022', name: 'hoje pora' },
   ];
 
   return res.status(200).json(holidays);
